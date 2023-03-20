@@ -1,7 +1,16 @@
+React JS con Axios. HTML/CSS. Responsive. Use Contex(mode dark/ligth). Convertir consultas CURL a Node AXIOs
+ https://curlconverter.com/node-axios/. 
+ 
 API Twitch. Para usar la API autentique la aplicación y obtuve el token .
+
 Get User y Filtrar . Para obtener los usuarios hay que especificar en la consulta a la API los id, de no hacerlo devuelve el usuario del token . 
+https://api.twitch.tv/helix/users
+
 En el input especifica el usuario que desea añadir (se añade a otra lista que se muestra en la otra tabla a medida que va especificando el otro usuario)
 Obtuve un listado de usuarios los cuales puede filtrar y adicionar a la otra tabla.
+
 Get categorías. Devuleve el listado de juegos por las categorias que se muestran.
+
 Get por nombre o categoría de juego. Se realiza una búsqueda con la API https://api.twitch.tv/helix/search/categories. (query="for" o query="action")
+
 Get streams que realizó un usuario, for example lana_lux o cohhcarnage https://api.twitch.tv/helix/streams  
